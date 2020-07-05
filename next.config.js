@@ -4,9 +4,6 @@ const withOffline = require(`next-offline`);
 const withOptimizedImages = require(`next-optimized-images`);
 
 sitemap({
-  baseUrl: process.env.NEXT_PUBLIC_GITHUB_PAGES
-    ? `hpprc.dev/next-template-tailwind`
-    : `next-tempalte-tailwind.hpprc.com`,
   pagesDirectory: `${__dirname}/src/pages`,
   targetDirectory: `public/`,
 });
