@@ -20,6 +20,7 @@
     "resolveJsonModule": true,
     "allowJs": true,
     "assumeChangesOnlyAffectDirectDependencies": true,
+    "importHelpers": true,
 
     "baseUrl": ".",
     "paths": {
