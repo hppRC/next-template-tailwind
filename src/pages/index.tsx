@@ -1,28 +1,5 @@
-import { useRecoilState } from 'recoil';
-import { ColorMode, colorModeState } from 'src/store';
+const Component: React.FCX = () => <>index page</>;
 
-import styled from '@emotion/styled';
-
-type ContainerProps = Record<string, unknown>;
-type Props = Record<string, unknown> & ContainerProps;
-
-const Component: React.FCX<Props> = ({ className }) => {
-  const [mode, setColorMode] = useRecoilState<ColorMode>(colorModeState);
-
-  return (
-    <div className={className}>
-      {mode}
-      <button
-        type='button'
-        aria-label='button'
-        onClick={() => setColorMode((mode) => (mode === `Light` ? `Dark` : `Light`))}
-      />
-    </div>
-  );
-};
-
-const StyledComponent = styled(Component)``;
-
-const Container: React.FCX<ContainerProps> = (props) => <StyledComponent {...props} />;
+const Container: React.FCX = () => <Component />;
 
 export default Container;
