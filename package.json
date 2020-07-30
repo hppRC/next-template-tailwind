@@ -1,7 +1,6 @@
 {
-  "name": "next-template",
-  "version": "0.2.0",
-  "private": true,
+  "name": "next-template-tailwind",
+  "version": "0.3.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,6 +9,9 @@
     "clean": "rm -rf out .next",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .eslintignore .",
     "fix": "eslint --ext .js,.jsx,.ts,.tsx --ignore-path .eslintignore . --fix"
+  },
+  "resolutions": {
+    "webpack": "^5.0.0-beta.22"
   },
   "dependencies": {
     "imagemin-mozjpeg": "9.0.0",
