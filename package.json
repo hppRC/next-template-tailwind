@@ -1,6 +1,7 @@
 {
   "name": "next-template-tailwind",
   "version": "0.3.0",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
