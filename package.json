@@ -29,7 +29,7 @@
     "sanitize.css": "11.0.0",
     "sass": "1.26.9",
     "tailwind": "4.0.0",
-    "tailwindcss": "1.6.0"
+    "tailwindcss": "1.9.5"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "3.0.0",
