@@ -1,14 +1,12 @@
-import React from 'react';
+import Div100vh from 'react-div-100vh';
 
 import { Footer } from './footer';
 import { Header } from './header';
 
-const Component: React.FCX = ({ children }) => (
-  <>
+export const Layout: React.FC = ({ children }) => (
+  <Div100vh className='flex flex-col'>
     <Header />
-    <main className=''>{children}</main>
+    <main className='flex-grow max-w-screen-xl w-full mx-auto px-2'>{children}</main>
     <Footer />
-  </>
+  </Div100vh>
 );
-
-export const Layout: React.FCX = ({ children }) => <Component>{children}</Component>;

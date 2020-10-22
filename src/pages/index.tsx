@@ -1,5 +1,3 @@
-const Component: React.FCX = () => <>index page</>;
+const Index: React.FCX = () => <h1 className='font-extrabold text-4xl'>Index page!</h1>;
 
-const Container: React.FCX = () => <Component />;
-
-export default Container;
+export default Index;

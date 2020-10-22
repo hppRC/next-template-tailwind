@@ -4,7 +4,6 @@ import 'src/styles/tailwind.css';
 
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-import React from 'react';
 import { Layout } from 'src/layouts';
 
 const App = ({ Component, pageProps }: AppProps): JSX.Element => (
